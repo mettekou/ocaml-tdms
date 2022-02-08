@@ -1,0 +1,4 @@
+(tests
+ (names tdms_test)
+ (package tdms)
+ (libraries alcotest tdms))

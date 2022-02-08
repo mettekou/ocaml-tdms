@@ -1,0 +1,6 @@
+(library
+ (name tdms)
+ (public_name tdms)
+ (libraries base stdint angstrom lwt.unix angstrom-lwt-unix)
+ (preprocess
+  (pps lwt_ppx)))
